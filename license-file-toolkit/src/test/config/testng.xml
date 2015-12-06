@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!--
+  getlicense.io
+  Copyright (C) 2014 klicap - ingeniería del puzle
+
+  $Id: testng.xml 90 2014-03-30 19:38:41Z amuniz $ 
+ -->
+<suite name="Suite1" verbose="1">
+    <test name="Write">
+        <packages>
+            <package name="es.klicap.getlicense.filetoolkit.test" />
+        </packages>
+    </test>
+</suite>

@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1">
+    <test name="Users">
+        <classes>
+            <class name="es.klicap.getlicense.apiclient.tests.Users" />
+        </classes>
+    </test>
+    <test name="Customers">
+        <classes>
+            <class name="es.klicap.getlicense.apiclient.tests.Customers" />
+        </classes>
+    </test>
+    <test name="Products">
+        <classes>
+            <class name="es.klicap.getlicense.apiclient.tests.Products" />
+        </classes>
+    </test>
+</suite>
